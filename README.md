@@ -31,11 +31,13 @@ $ git status
 $ git push
 ```
 Añadir fichero 1.txt
+
 Cree el archivo 1.txt con el comando:
 ```bash
 $ touch 1.txt
 ```
 Crear rama v0.2
+
 Cree la rama v0.2 con el comando:
 ```bash
 git branch v0.2
@@ -59,6 +61,7 @@ Me tiro un error que solucione utilizando el comando que me especificaba la cons
 $ git push --set-upstream origin v0.2
 ```
 Merge directo
+
 Me posiciono en la rama Main con el comando:
 ```bash
 $ git checkout main
@@ -68,6 +71,7 @@ Y luego hago el merge con la rama v0.2 de esta manera:
 $ git merge v0.2
 ```
 Merge con conflicto
+
 En el Main agregue la palabra "Hola" en el archivo 1.txt y le hice un commit:
 ```bash
 $ echo "Hola" > 1.txt
@@ -93,6 +97,7 @@ CONFLICT (content): Merge conflict in 1.txt
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 Listado de ramas
+
 Con el siguiente comando veo aquellas ramas que han sido fusionadas correctamente: 
 ```bash
 $ git branch --merged
@@ -118,6 +123,7 @@ Finalmente elimino la rama con:
 $ git branch -D v0.2
 ```
 Listado de cambios
+
 Para visualizar todos los commits realizados hasta ahora utilizo:
 ```bash
 $ git log --oneline --decorate --all --graph
@@ -135,6 +141,7 @@ $ git log --oneline --decorate --all --graph
 * a1bc7a8 commit inicial
 ```
 Crear una tabla
+
 | NOMBRE | GITHUB |
 | -- | -- |
 | Ivan de la Parte | [Ivan](https://github.com/ivandelaparte/devjumpers)
