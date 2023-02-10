@@ -137,8 +137,10 @@ $ git log --oneline --decorate --all --graph
 Crear una tabla
 | NOMBRE | GITHUB |
 | -- | -- |
-| Ivan de la Parte | [Ivan]](https://github.com/ivandelaparte/devjumpers)
+| Ivan de la Parte | [Ivan](https://github.com/ivandelaparte/devjumpers)
 | Maria Arteaga | [maryjse](https://github.com/maryjse)
 | Armando Torres Quintana | [ArmaTQ](https://github.com/ArmaTQ)
 | Leandro Cuevas | [leandro-cuevas](https://github.com/leandro-cuevas)
 | Franco Formigo | [francobenjaminformigo](https://github.com/francobenjaminformigo)
+
+Colaborador: Ivan de la Parte. 
